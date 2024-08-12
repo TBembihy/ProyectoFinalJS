@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camiseta Urbana",
+        "precio": 4999,
+        "imagen": "https://via.placeholder.com/250",
+        "descripcion": "Camiseta de algodón 100%."
+    },
+    {
+        "id": 2,
+        "nombre": "Jeans Ajustados",
+        "precio": 8999,
+        "imagen": "https://via.placeholder.com/250",
+        "descripcion": "Jeans ajustados de estilo moderno."
+    },
+    {
+        "id": 3,
+        "nombre": "Zapatillas Deportivas",
+        "precio": 12499,
+        "imagen": "https://via.placeholder.com/250",
+        "descripcion": "Zapatillas deportivas de alto rendimiento."
+    }
+]

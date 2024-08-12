@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bambi</h1>
+        <nav>
+            <a href="#" id="home-link">Inicio</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="productos-contenedor">
+            <!-- Productos serán insertados aquí dinámicamente -->
+        </section>
+        
+        <section id="carrito-contenedor" class="hidden">
+            <h2>Carrito</h2>
+            <ul id="carrito-items"></ul>
+            <div id="carrito-total"></div>
+        </section>
+
+        <section id="pago-section" class="hidden">
+            <h2>Pago</h2>
+            <form id="pago-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" required>
+
+                <label for="tarjeta">Número de Tarjeta:</label>
+                <input type="text" id="tarjeta" required>
+
+                <button type="button" onclick="confirmarCompra()">Confirmar Compra</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
